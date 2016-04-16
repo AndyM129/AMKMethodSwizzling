@@ -1,0 +1,24 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "bfa2a615-8e34-c236-d9c2-ce57b7db7bff++505" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "bfa2a615-8e34-c236-d9c2-ce57b7db7bff++505" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F0F6B6E3-EDD6-4692-BC4A-65E5761CB8BB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "bfa2a615-8e34-c236-d9c2-ce57b7db7bff++505" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AMKMethodSwizzlingDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AMKMethodSwizzlingDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/AndyM129\/AMKMethodSwizzling.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "bfa2a615-8e34-c236-d9c2-ce57b7db7bff++505"
+    }
+  ]
+}
