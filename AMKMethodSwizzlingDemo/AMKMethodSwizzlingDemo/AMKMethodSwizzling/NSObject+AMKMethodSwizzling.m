@@ -5,6 +5,8 @@
 //  Created by Andy__M on 16/3/22.
 //  Copyright © 2016年 Andy__M. All rights reserved.
 //
+//  https://github.com/AndyM129/AMKMethodSwizzling
+//
 
 #import "NSObject+AMKMethodSwizzling.h"
 
