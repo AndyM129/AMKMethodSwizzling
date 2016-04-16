@@ -44,11 +44,9 @@
         NSLog(@"%@ %@", viewController.title, viewWillAppear?@"viewWillAppear":@"viewWillDisappear");
     };
     viewController.am_viewDidAppearOrDisappearBlock = ^(UIViewController * viewController, BOOL viewDidAppear){
-        NSLog(@"%@ %@", viewController.title, viewDidAppear?@"viewDidAppear":@"viewDidDisappear");
+        NSLog(@"%@ %@", viewController.title, viewDidAppear?@"viewDidAppear\n\n\n":@"viewDidDisappear");
     };
     [self.navigationController pushViewController:viewController animated:YES];
-    
-    printf("\n\n\n");   //  空行
 }
 
 - (void)didReceiveMemoryWarning {
