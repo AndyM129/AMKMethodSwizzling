@@ -1,28 +1,31 @@
-# AMKMethodSwizzling
+AMKMethodSwizzling
+======
+![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)
+![Support](https://img.shields.io/badge/support-iOS%207%2B%20-blue.svg?style=flat)
 
+GitHub
+------
+https://github.com/AndyM129/AMKMethodSwizzling
+
+
+Features
+==============
 支持类方法与实例方法的替换
-```Objective-C
-#import <Foundation/Foundation.h>
-#import <objc/runtime.h>
 
-@interface NSObject (AMKMethodSwizzling)
 
-/// 交换实例方法
-+ (BOOL)amk_swizzleInstanceMethod:(SEL)originalSelector with:(SEL)newSelector;
+Installation
+======
 
-/// 交换类方法
-+ (BOOL)amk_swizzleClassMethod:(SEL)originalSelector with:(SEL)newSelector;
-@end
+### CocoaPods
 
-```
-
-## Installation
 由于不知道如何让[CocoaPods](http://cocoapods.org)支持，只能先下载到本地再使用了~~
 
-## Usage
+### Manually
 将该类添加到项目中，并引入该类的头文件，即可使用。
 
-## Initialization
+
+How To Use It
+------
 
 例如替换UIViewController的4个生命周期的方法：
 
@@ -160,17 +163,33 @@ viewController.am_viewDidAppearOrDisappearBlock = ^(UIViewController * viewContr
 
 ```
 
-## Requirements
-我是在 Xcode Version 7.1.1 上开发的，目标支持iOS7+，没有测试更早的iOS版本。
 
-## One More Thing
+Requirements
+------
+该软件 Xcode Version 7.1.1 上开发的，目标支持iOS7+，没有测试更早的iOS版本。
 
-## Additional Notes
 
+One More Thing
+------
 如果你有好的 idea 或 疑问，请随时提 issue 或 request。
 
-如果你在开发过程中遇到什么问题，或对iOS开发有着自己独到的见解，再或是你与我一样同为菜鸟，都可以关注或私信我的微博 [`@Developer_Andy`](http://weibo.com/u/5271489088)、[`简书`](http://www.jianshu.com/users/28d89b68984b/latest_articles)
 
-“Stay hungry. Stay foolish.”
+Author
+------
+如果你在开发过程中遇到什么问题，或对iOS开发有着自己独到的见解，再或是你与我一样同为菜鸟，都可以关注或私信我的微博。
+
+* QQ: 564784408
+* 微信：Andy_129
+* 微博：[@Developer_Andy](http://weibo.com/u/5271489088)
+* 简书：[Andy__M](http://www.jianshu.com/users/28d89b68984b)
+
+>“Stay hungry. Stay foolish.”
 
 与君共勉~
+
+License
+------
+本软件 使用 MIT 许可证，详情见 LICENSE 文件。
+
+
+
