@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.author       = { "Andy Meng" => "andy_m129@163.com" }
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/AndyM129/AMKMethodSwizzling.git", :tag => "1.0.0" }
-  s.source_files = "AMKMethodSwizzlingDemo/AMKMethodSwizzling/*.{h,m}"
+  s.source_files = "AMKMethodSwizzling/*.{h,m}"
   s.requires_arc = true
 
 end
