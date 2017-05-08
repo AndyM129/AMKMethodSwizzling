@@ -16,10 +16,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/AndyM129/AMKMethodSwizzling"
   s.license      = "MIT"
   s.author       = { "Andy Meng" => "andy_m129@163.com" }
-  s.ios.deployment_target = "5.0"
-  s.osx.deployment_target = "10.7"
-  s.watchos.deployment_target = "2.0"
-  s.tvos.deployment_target = "9.0"
+  s.platform     = :ios, '7.0'  
   s.source       = { :git => "https://github.com/AndyM129/AMKMethodSwizzling.git", :tag => s.version.to_s }
   s.source_files  = "AMKMethodSwizzlingDemo/AMKMethodSwizzling/*.{h,m}"
   s.requires_arc = true
