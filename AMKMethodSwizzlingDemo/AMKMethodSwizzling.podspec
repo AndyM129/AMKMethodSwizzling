@@ -7,19 +7,21 @@
 #
 
 Pod::Spec.new do |s|
+
   s.name         = "AMKMethodSwizzling"
   s.version      = "1.0.0"
   s.summary      = "使用黑魔法来修改原生类的方法"
+
   s.description  = <<-DESC
                    通过运行时，使用黑魔法来修改原生类的方法
                    DESC
+
   s.homepage     = "https://github.com/AndyM129/AMKMethodSwizzling"
-  s.license      = "MIT"
+  s.license      = "MITnse"
   s.author       = { "Andy Meng" => "andy_m129@163.com" }
-  s.platform     = :ios, '7.0'  
-  s.source       = { :git => "https://github.com/AndyM129/AMKMethodSwizzling.git", :tag => s.version.to_s }
-  s.source_files  = "AMKMethodSwizzlingDemo/AMKMethodSwizzling/*.{h,m}"
+  s.platform     = :ios, "7.0"
+  s.source       = { :git => "https://github.com/AndyM129/AMKMethodSwizzling.git", :tag => "1.0.0" }
+  s.source_files = "AMKMethodSwizzlingDemo/AMKMethodSwizzling/*.{h,m}"
   s.requires_arc = true
-  s.frameworks = 'Foundation', 'UIKit' 
 
 end
