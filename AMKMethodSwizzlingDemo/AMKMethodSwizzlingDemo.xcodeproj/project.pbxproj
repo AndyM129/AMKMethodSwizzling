@@ -13,8 +13,8 @@
 		6D8850A61CC2313C00DCC876 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D8850A41CC2313C00DCC876 /* Main.storyboard */; };
 		6D8850A81CC2313C00DCC876 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D8850A71CC2313C00DCC876 /* Assets.xcassets */; };
 		6D8850AB1CC2313C00DCC876 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D8850A91CC2313C00DCC876 /* LaunchScreen.storyboard */; };
-		6D8850B51CC2319700DCC876 /* NSObject+AMKMethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8850B41CC2319700DCC876 /* NSObject+AMKMethodSwizzling.m */; };
 		6D8850B81CC2326400DCC876 /* UIViewController+AMKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8850B71CC2326400DCC876 /* UIViewController+AMKit.m */; };
+		A1B2D0571EC0B4A80052184C /* NSObject+AMKMethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B2D0561EC0B4A80052184C /* NSObject+AMKMethodSwizzling.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +28,10 @@
 		6D8850A71CC2313C00DCC876 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D8850AA1CC2313C00DCC876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D8850AC1CC2313C00DCC876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6D8850B31CC2319700DCC876 /* NSObject+AMKMethodSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AMKMethodSwizzling.h"; sourceTree = "<group>"; };
-		6D8850B41CC2319700DCC876 /* NSObject+AMKMethodSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AMKMethodSwizzling.m"; sourceTree = "<group>"; };
 		6D8850B61CC2326400DCC876 /* UIViewController+AMKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AMKit.h"; sourceTree = "<group>"; };
 		6D8850B71CC2326400DCC876 /* UIViewController+AMKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AMKit.m"; sourceTree = "<group>"; };
+		A1B2D0551EC0B4A80052184C /* NSObject+AMKMethodSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AMKMethodSwizzling.h"; sourceTree = "<group>"; };
+		A1B2D0561EC0B4A80052184C /* NSObject+AMKMethodSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AMKMethodSwizzling.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +48,7 @@
 		6D88508F1CC2313C00DCC876 = {
 			isa = PBXGroup;
 			children = (
+				A1B2D0541EC0B4A80052184C /* AMKMethodSwizzling */,
 				6D88509A1CC2313C00DCC876 /* AMKMethodSwizzlingDemo */,
 				6D8850991CC2313C00DCC876 /* Products */,
 			);
@@ -64,7 +65,6 @@
 		6D88509A1CC2313C00DCC876 /* AMKMethodSwizzlingDemo */ = {
 			isa = PBXGroup;
 			children = (
-				6D8850B21CC2316000DCC876 /* AMKMethodSwizzling */,
 				6D88509E1CC2313C00DCC876 /* AppDelegate.h */,
 				6D88509F1CC2313C00DCC876 /* AppDelegate.m */,
 				6D8850A11CC2313C00DCC876 /* ViewController.h */,
@@ -88,11 +88,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6D8850B21CC2316000DCC876 /* AMKMethodSwizzling */ = {
+		A1B2D0541EC0B4A80052184C /* AMKMethodSwizzling */ = {
 			isa = PBXGroup;
 			children = (
-				6D8850B31CC2319700DCC876 /* NSObject+AMKMethodSwizzling.h */,
-				6D8850B41CC2319700DCC876 /* NSObject+AMKMethodSwizzling.m */,
+				A1B2D0551EC0B4A80052184C /* NSObject+AMKMethodSwizzling.h */,
+				A1B2D0561EC0B4A80052184C /* NSObject+AMKMethodSwizzling.m */,
 			);
 			path = AMKMethodSwizzling;
 			sourceTree = "<group>";
@@ -169,9 +169,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D8850B81CC2326400DCC876 /* UIViewController+AMKit.m in Sources */,
+				A1B2D0571EC0B4A80052184C /* NSObject+AMKMethodSwizzling.m in Sources */,
 				6D8850A31CC2313C00DCC876 /* ViewController.m in Sources */,
 				6D8850A01CC2313C00DCC876 /* AppDelegate.m in Sources */,
-				6D8850B51CC2319700DCC876 /* NSObject+AMKMethodSwizzling.m in Sources */,
 				6D88509D1CC2313C00DCC876 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
