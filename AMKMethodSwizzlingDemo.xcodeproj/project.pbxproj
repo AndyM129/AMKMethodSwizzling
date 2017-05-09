@@ -14,6 +14,9 @@
 		6D8850A81CC2313C00DCC876 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D8850A71CC2313C00DCC876 /* Assets.xcassets */; };
 		6D8850AB1CC2313C00DCC876 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D8850A91CC2313C00DCC876 /* LaunchScreen.storyboard */; };
 		6D8850B81CC2326400DCC876 /* UIViewController+AMKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8850B71CC2326400DCC876 /* UIViewController+AMKit.m */; };
+		A10C46BC1EC1F3BA0002D9C7 /* AMKMethodSwizzling.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A10C46B91EC1F3BA0002D9C7 /* AMKMethodSwizzling.podspec */; };
+		A10C46BD1EC1F3BA0002D9C7 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A10C46BA1EC1F3BA0002D9C7 /* LICENSE */; };
+		A10C46BE1EC1F3BA0002D9C7 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A10C46BB1EC1F3BA0002D9C7 /* README.md */; };
 		A1B2D0571EC0B4A80052184C /* NSObject+AMKMethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B2D0561EC0B4A80052184C /* NSObject+AMKMethodSwizzling.m */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +33,9 @@
 		6D8850AC1CC2313C00DCC876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D8850B61CC2326400DCC876 /* UIViewController+AMKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AMKit.h"; sourceTree = "<group>"; };
 		6D8850B71CC2326400DCC876 /* UIViewController+AMKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AMKit.m"; sourceTree = "<group>"; };
+		A10C46B91EC1F3BA0002D9C7 /* AMKMethodSwizzling.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AMKMethodSwizzling.podspec; path = AMKMethodSwizzlingDemo/AMKMethodSwizzling.podspec; sourceTree = "<group>"; };
+		A10C46BA1EC1F3BA0002D9C7 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = AMKMethodSwizzlingDemo/LICENSE; sourceTree = "<group>"; };
+		A10C46BB1EC1F3BA0002D9C7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = AMKMethodSwizzlingDemo/README.md; sourceTree = "<group>"; };
 		A1B2D0551EC0B4A80052184C /* NSObject+AMKMethodSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AMKMethodSwizzling.h"; sourceTree = "<group>"; };
 		A1B2D0561EC0B4A80052184C /* NSObject+AMKMethodSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AMKMethodSwizzling.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -48,6 +54,9 @@
 		6D88508F1CC2313C00DCC876 = {
 			isa = PBXGroup;
 			children = (
+				A10C46B91EC1F3BA0002D9C7 /* AMKMethodSwizzling.podspec */,
+				A10C46BA1EC1F3BA0002D9C7 /* LICENSE */,
+				A10C46BB1EC1F3BA0002D9C7 /* README.md */,
 				A1B2D0541EC0B4A80052184C /* AMKMethodSwizzling */,
 				6D88509A1CC2313C00DCC876 /* AMKMethodSwizzlingDemo */,
 				6D8850991CC2313C00DCC876 /* Products */,
@@ -156,8 +165,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D8850AB1CC2313C00DCC876 /* LaunchScreen.storyboard in Resources */,
+				A10C46BC1EC1F3BA0002D9C7 /* AMKMethodSwizzling.podspec in Resources */,
 				6D8850A81CC2313C00DCC876 /* Assets.xcassets in Resources */,
 				6D8850A61CC2313C00DCC876 /* Main.storyboard in Resources */,
+				A10C46BD1EC1F3BA0002D9C7 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +179,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A10C46BE1EC1F3BA0002D9C7 /* README.md in Sources */,
 				6D8850B81CC2326400DCC876 /* UIViewController+AMKit.m in Sources */,
 				A1B2D0571EC0B4A80052184C /* NSObject+AMKMethodSwizzling.m in Sources */,
 				6D8850A31CC2313C00DCC876 /* ViewController.m in Sources */,
